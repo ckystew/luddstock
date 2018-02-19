@@ -1,0 +1,8 @@
+<h2>Luddstock parties</h2>
+<ul class="groups">
+  <li *ngFor="let group of groups" (click)="onSelect(group)" [class.selected]="group === selectedGroup">
+    <span class="badge">{{group.id}}</span>{{group.name}} - Party Size: {{group.partySize}}
+  </li>
+</ul>
+
+<app-group-detail [group]="selectedGroup"></app-group-detail>
