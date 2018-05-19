@@ -8,6 +8,8 @@ import { CapacityCounterComponent } from './capacity-counter/capacity-counter.co
 import { GroupsComponent } from './groups/groups.component';
 import { GroupDetailComponent } from './group-detail/group-detail.component';
 
+import { AlertModule } from 'ngx-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent,

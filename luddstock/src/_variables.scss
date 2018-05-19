@@ -1,1 +1,10 @@
 $icon-font-path: '../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+@font-face {
+    font-family: 'Novito';
+    src: url(assets/NovitoNova-Regular.otf);
+}
+
+body {
+    font-family: 'Novito', serif !important;
+}
